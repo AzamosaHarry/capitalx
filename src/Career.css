@@ -1,0 +1,201 @@
+.career_body {
+    padding-top: 8vh;
+    overflow: hidden;
+}
+.career_section_one { 
+    min-height: 60vh;
+    padding: 10% 20%;
+    background: url(/src/bgcareer.jpg);
+    background-size: cover;
+}
+.career_section_one > h1{ 
+    font-size: 55px;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond', serif;
+    width: 45%;
+    color: white;
+}
+.career_section_two { 
+    min-height: 60vh;
+    padding: 2.5% 20%;
+    background: #051c2c;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.career_section_two > div{ 
+    width: 50%;
+    margin-right: 50px;
+}
+.career_section_two > div > h1{ 
+    font-size: 45px;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 20px;
+}
+.career_section_two > div > p{ 
+    font-weight: 200;
+    font-size: 15px;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+.career_section_three { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5% 20%;
+}
+.career_section_three > div{ 
+    width: 50%;
+    margin-left: 50px;
+}
+.career_section_three > div > h1{ 
+    font-size: 45px;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 20px;
+}
+.career_section_three > div > p{ 
+    font-weight: 200;
+    font-size: 15px;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+.career_image {
+    height: 500px;
+    width: 500px;
+}
+.career_section_four { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 20%;
+    background: #2251ff;
+    color: white;
+}
+.career_section_four > h1{ 
+    font-size: 45px;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+}
+.career_section_five { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5% 20%;
+    background: #051c2c;
+    color: white;
+}
+.career_section_five > h1{ 
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.career_section_five > button{ 
+    background: white;
+    color: #051c2c;
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 2.5px;
+    border: 0;
+    font-size: 15px;
+}
+@media all and (max-width: 700px) {
+    .career_section_one { 
+        min-height: 60vh;
+        padding: 5%;
+        background: url(/src/bgcareer.jpg);
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .career_section_one > h1{ 
+        font-size: 45px;
+        width: 80%;
+    }
+    .career_section_two { 
+        padding: 5%;
+        flex-direction: column-reverse;
+        justify-content: start;
+        align-items: start;
+    }
+    .career_section_two > div{ 
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    .career_section_two > div > h1{ 
+        font-size: 35px;
+        font-weight: 500;
+    }
+    .career_section_two > div > p{ 
+        font-weight: 200;
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .career_section_three { 
+        flex-direction: column-reverse;
+        justify-content: start;
+        align-items: start;
+        padding: 5%;
+    }
+    .career_section_three > div{ 
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+    .career_section_three > div > h1{ 
+        font-size: 45px;
+        font-weight: 500;
+        font-family: 'Cormorant Garamond', serif;
+        margin-bottom: 20px;
+    }
+    .career_section_three > div > p{ 
+        font-weight: 200;
+        font-size: 17px;
+        margin-bottom: 10px;
+        line-height: 30px;
+    }
+    .career_image {
+        height: 350px;
+        width: 350px;
+    }
+    .career_section_four { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+        background: #2251ff;
+        color: white;
+    }
+    .career_section_four > h1{ 
+        font-size: 25px;
+        text-align: center;
+    }
+    .career_section_five {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+    }
+    .career_section_five > h1{ 
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .career_section_five > button{ 
+        background: white;
+        color: #051c2c;
+        padding: 7.5px 15px;
+        font-weight: 500;
+        border-radius: 2.5px;
+        border: 0;
+        font-size: 15px;
+    }
+}
